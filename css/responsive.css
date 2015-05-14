@@ -1,0 +1,164 @@
+/***************************************************
+****************************************************
+1024
+***************************************************
+***************************************************/
+@media screen and (max-width:1025px){  #slide-menu{width:70%}
+
+#menu div.menu-trigger{width:50px; height:50px; padding:10px}
+
+#nav-toggle{left:20px}
+
+#menu{width:70px}
+
+.texteMenu p{font-size:16px}
+
+body.menu-active div#content{left:calc(70% - 70px)}
+body.menu-active div#content #menu{left:calc(70% - 70px)}
+
+#menu div.search-trigger{width:70px; height:70px; bottom:10px}
+
+#menu div.search-trigger img{margin:12px auto}
+
+#menu div.logo{margin-top:-35px; width:70px; height:70px}
+
+#menu div.logo img{width:50px; height:50px}
+
+.contenu{margin-left:70px}
+
+/*.blockTop{height:100px}
+
+.blockTop:hover{ height:140px}
+*/
+.blockTop h2{margin-top:30px; font-size:24px}
+
+.blockTop:hover .tiret{width:140px}
+
+.tiret{height:2px; width:70px}
+.date{font-size:18px}
+
+.texteArticle{width:76%; padding-left:12%; padding-right:12%; padding-top:30px}
+
+.texteArticle p{ font-size:16px; text-align:justify; line-height:30px; color:#565656 !important}
+
+.titreArticle{width:70%; bottom:30px; padding-top:30px; padding-bottom:30px; margin:auto 15%}
+
+.titreArticle h2{color:white; font-family:'Raleway'; text-transform:uppercase; !important; font-size:40px}
+
+.titreArticle .dateArticle{font-size:18px}
+
+.titreArticle .arrowDown{width:30px; height:30px; margin:70px auto 0 auto}
+
+.blocContact{height:70px; padding:30px 0; margin-top:30px; margin-bottom:30px}
+
+.blocContact .auteur p{font-size:18px}
+
+.blocContact .auteur a{font-size:16px}
+
+.blocContact .auteur{margin-top:0; margin-left:100px}
+
+.blocContact img{width:70px; height:70px}
+
+.articlesComments{width:76%; padding-left:12%; padding-right:12%; padding-bottom:30px}
+
+.nav-previous a{font-size:16px; height:70px; line-height:70px}
+
+.nav-next a{font-size:16px; height:70px; line-height:70px}
+
+body.menu-active div#content .nav-next a{left:70%}
+
+.searchHeader h1{font-size:30px; margin-top:30px}
+
+.searchHeader{height:70px; font-size:30px}
+
+#searchform input[type=text]{ width:83%; outline:none; border-top:none; border-left:none; border-right:none}
+
+#searchform input[type=submit]{top:30px}
+section#loader{display:none}
+
+}
+/***************************************************
+****************************************************
+1024
+***************************************************
+***************************************************/
+@media screen and (max-height:673px){.texteMenu p{ font-size:16px}
+
+.blockTop h2{ margin-top:70px}
+
+.texteMenu{margin-top:-200px}
+
+
+}
+ 
+ 
+/***************************************************
+****************************************************
+768
+***************************************************
+***************************************************/
+ /* 501*/ 
+@media screen and (max-width:769px){section#menu.menuMobile{display:block; background:white; overflow:hidden; height:70px; left:0; top:0px; z-index:11; position:fixed}
+
+.contenu{margin-top:70px; margin-left:0; z-index:10; left:0}
+
+
+
+#menu div.logo{margin-top:0; top:10px}
+
+#slide-menu{position:fixed; top:-2999px; left:0px; height:110%; background:none; background-color:none; width:90%}
+
+#nav-toggle{left:25px}
+
+.texteMenu{display:block; width:90%; top:10%; margin:auto 10%; margin-top:-30px; left:0px; height:200px}
+
+.texteMenu p{display:none; font-size:16px}
+
+body.menu-active nav#slide-menu{top:30px}
+body.menu-active nav#slide-menu ul{top:0px; opacity:1}
+body.menu-active div#content{top:calc(40% - 70px); overflow:hidden !important; position:fixed; left:0}
+body.menu-active div#content #menu{top:calc(40% - 70px); left:0}
+body.menu-active div#content .blockTop h2{text-align:left}
+body.menu-active div#content .blockTop .tiret{margin:15px auto !important}
+
+#menu div.search-trigger{top:10px; left:10px; display:none}
+
+#menu div.logo{left:50%; margin-left:-25px; margin-top:0px; width:50px; height:50px}
+
+#menu div.logo a{width:50px; display:block; height:50px; margin:auto}
+
+body.menu-active div#content .blockTop h2{text-align:center}
+
+body.menu-active div#content .blockTop .tiret{margin:15px 0 15px 0px}
+
+body.menu-active div#content .blockTop .date{text-align:center; padding-left:0px}
+
+.titreArticle{display:block; width:70%; margin:30px 15%}
+
+.pageArticle{margin:-70px 0 0 0}
+
+.titreArticle .arrowDown{margin:70px auto 0 auto}
+
+.titreArticle h2{font-size:30px}
+
+.titreArticle .dateArticle{font-size:16px}
+
+.texteArticle{display:block; width:90%; padding-left:5%; padding-right:5%; padding-top:30px}
+
+.blockTop h2{font-size:18px}
+
+.nav-previous a{float:right; height:70px; width:100%; line-height:70px; text-align:left; padding-left:20px; padding-right:20px; left:0; bottom:0px; border-bottom:1px white solid; border-left:none}
+
+.nav-next a{float:right; height:70px; width:100%; line-height:70px; text-align:left; padding-left:20px; padding-right:20px; left:0; border-bottom:1px white solid; bottom:0px}
+
+.articlesComments{display:none}
+
+.socialMenu{width:110px; float:none; margin:0 auto; position:relative; display:block}
+
+.socialMenu a{width:35px; margin:0px 20px 0 0; height:35px}
+
+.ssba{padding-bottom:20px}
+
+#awwwards{display:none}
+
+}
